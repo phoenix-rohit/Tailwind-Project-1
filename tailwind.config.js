@@ -13,7 +13,7 @@ module.exports = {
         strongCyan: "hsl(171,66%,44%)",
         lightBlue: "hsl(233,100%,69%)",
         darkGrayishBlue: "hsl(210,10%,33%)",
-        strongCyan: "hsl(201,11%,66%)",
+        lightGrayish: "hsl(201,11%,66%)",
       },
       fontFamily: {
         sans: ["Bai Jamjuree", "sans-serif"],
