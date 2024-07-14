@@ -10,30 +10,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>CLIPBOARD</title>
+    <title>CLIPBOARD Website</title>
   </head>
   <body>
     <!-- TAILWIND is a css framework which builds mobile first layouts -->
     <!-- HERO SECTION -->
-    <section id="hero">
-      <div class="max-w-6xl mb-40 text-center px-10 pt-16 mx-auto">
+    <header id="hero">
+      <div class="section-container mb-40 pt-16">
         <img
           src="/images/logo.svg"
           alt="clipboard logo"
           class="mx-auto my-16"
         />
-        <h3 class="text-4xl text-darkGrayishBlue md:text-5xl mb-8 font-bold">
-          A history of everything you copy
-        </h3>
-        <p class="max-w-3xl mx-auto md:text-2xl text-lightGrayish mb-10">
+        <h3>A history of everything you copy</h3>
+        <p
+          class="max-w-3xl mx-auto md:text-2xl text-xl text-lightGrayish mb-10"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
           mollitia ipsam! Laborum eveniet voluptas animi maiores! Vel expedita,
           veniam facilis, quaerat exercitationem.
         </p>
         <!-- Button Container -->
-        <div
-          class="flex flex-col space-y-6 w-full justify-center md:flex-row md:space-y-0 md:space-x-4"
-        >
+        <div class="button-container">
           <a
             href="#"
             class="rounded-full shadow-lg bg-strongCyan text-white duration-200 p-4 px-8 hover:opacity-90"
@@ -45,6 +43,84 @@
             >Download for Mac</a
           >
         </div>
+      </div>
+    </header>
+
+    <!-- Snippet section -->
+    <section id="snippet">
+      <div class="section-container my-20">
+        <h3>Keep track of your snippets</h3>
+        <p class="max-w-3xl text-lightGrayish mx-auto text-xl mb-24 leading-9">
+          Non, praesentium ut iure asperiores laboriosam cumque omnis error
+          vitae accusantium necessitatibus neque quis, libero laudantium. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="section-container my-20 md:mb-40">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- IMAGE -->
+          <div class="md:w-1/2">
+            <img
+              src="/images/image-computer.png"
+              alt=""
+              class="md:absolute top-0 right-[50%]"
+            />
+          </div>
+
+          <!-- TEXT contianer   -->
+          <div
+            class="flex flex-col mb-24 mt-16 space-y-12 text-xl md:w-1/2 md:pl-16"
+          >
+            <!-- 1st container -->
+            <div class="md:text-left md:max-w-md">
+              <h5 class="text-2xl text-darkGrayishBlue font-bold mb-2">
+                Quick Search
+              </h5>
+              <p class="md:max-w-md text-lightGrayish">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                deleniti dolorem et est.
+              </p>
+            </div>
+            <!-- 2nd container -->
+            <div class="md:text-left md:max-w-md">
+              <h5 class="text-2xl text-darkGrayishBlue font-bold mb-2">
+                iCloud Sync
+              </h5>
+              <p class="md:max-w-md text-lightGrayish">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                deleniti dolorem et est.
+              </p>
+            </div>
+
+            <!-- 3rd container -->
+            <div class="md:text-left md:max-w-md">
+              <h5 class="text-2xl text-darkGrayishBlue font-bold mb-2">
+                Complete History
+              </h5>
+              <p class="md:max-w-md text-lightGrayish">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                deleniti dolorem et est.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access -->
+    <section id="access">
+      <div class="section-container my-20">
+        <h3>Access Clipboard Anywhere</h3>
+        <p class="max-w-3xl mx-auto mb-24 text-xl text-lightGrayish leading-9">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+          dolorum dolores repudiandae.
+        </p>
+
+        <img src="/images/image-devices.png" alt="" class="mx-auto" />
       </div>
     </section>
   </body>
