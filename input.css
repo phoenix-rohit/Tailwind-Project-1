@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  /* font-size: 62.5%; */
+}
+
 .section-container {
   @apply max-w-6xl  mx-auto text-center px-10;
 }
 
 .button-container {
-  @apply flex flex-col space-y-6 w-full justify-center md:flex-row md:space-y-0 md:space-x-4;
+  @apply flex flex-col space-y-6 w-full justify-center md:flex-row md:space-y-0 md:space-x-4 text-xl;
 }
 
 .section-para {
@@ -34,4 +38,9 @@ body {
   h5 {
     @apply text-2xl text-darkGrayishBlue font-bold mb-2;
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) brightness(101%) contrast(94%);
 }
